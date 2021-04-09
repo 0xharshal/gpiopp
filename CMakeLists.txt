@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED on)
 include(CTest)
 enable_testing()
 
-add_library(gpiopp SHARED gpiopp.cpp)
+add_library(gpiopp SHARED gpiopp.cpp gpiochip.cpp)
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
