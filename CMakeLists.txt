@@ -9,6 +9,7 @@ enable_testing()
 
 add_library(gpiopp SHARED gpiopp.cpp gpiochip.cpp)
 
+add_subdirectory(test)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
