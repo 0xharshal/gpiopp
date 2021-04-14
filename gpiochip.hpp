@@ -4,8 +4,6 @@
 #include "string"
 #include "string_view"
 
-#include "fcntl.h"
-#include "sys/ioctl.h"
 #include "linux/gpio.h"
 
 namespace gpiopp

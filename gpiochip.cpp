@@ -6,9 +6,9 @@
 #include "cstring"
 #include "stdexcept"
 
-// #include "fcntl.h"
 #include "unistd.h"
-#include "linux/ioctl.h"
+#include "fcntl.h"
+#include "sys/ioctl.h"
 #include "linux/gpio.h"
 
 #include "gpiochip.hpp"
